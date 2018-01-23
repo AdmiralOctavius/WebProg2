@@ -111,7 +111,10 @@ th, td {
   background-color: #000;
   color: #fff;
 }
-
+//Added stuff here
+tr{
+  background-color: #fff;
+}
 .alt {
   background-color: #ccc;
 }
