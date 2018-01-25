@@ -4,23 +4,28 @@
 // page or follow along with the examples in the book.
 //
 // See README.txt for more information.
-$(()	=>	{
+$(document).ready(function(){
+
+	$(()	=>	{
+					$('#switcher')
+							.click((e)	=>	{
+									$(e.currentTarget)
+											.children('button')
+.toggleClass('hidden');
+				});
+}); $(()	=>	{
 		$('#switcher-default')
-				.on('click',	()	=>	{
+				.addClass('selected');
+		$('#switcher	button')
+				.click((e)	=>	{
+						const	bodyClass	=	e.target.id.split('-')[1];
 						$('body')
-								.removeClass('narrow')
-								.removeClass('large');
-		});
-		$('#switcher-narrow')
-				.on('click',	()	=>	{
-						$('body')
-								.addClass('narrow')
-								.removeClass('large');
-    });
-		$('#switcher-large')
-				.on('click',	()	=>	{
-						$('body')
-								.removeClass('narrow')
-								.addClass('large');
-    });	
+								.removeClass()
+								.addClass(bodyClass);
+						$(e.target)
+								.addClass('selected')
+								.removeClass('selected');
+						e.stopPropagation();
+				});
+});
 });
