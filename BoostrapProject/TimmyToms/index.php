@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <? require_once("newPhp/navBar.php"); ?>
-    
+
+    <? require_once("newPhp/headFile.php"); ?>
+
     <body data-spy="scroll" data-target="#template-navbar">
 
         <? require_once("newPhp/navBar.php");?>
@@ -780,7 +781,21 @@
             </div>
         </section>
 
-        <? require_once("newPhp/footer.php"; ?)
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="copyright text-center">
+                            <p>
+                                &copy; Copyright, 2015 <a href="#">Your Website Link.</a> Theme by <a href="http://themewagon.com/"  target="_blank">ThemeWagon</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
 
         <script src="js/bootstrap.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
