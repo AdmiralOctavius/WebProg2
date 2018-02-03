@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>Timmy Toms</title>
+
     <? require_once("newPhp/headFile.php"); ?>
 
     <body data-spy="scroll" data-target="#template-navbar">
@@ -8,8 +8,8 @@
         <? require_once("newPhp/navBar.php");?>
 
         <!--== 5. Header ==-->
-        <section  id="header-slider" class="owl-carousel home">
-            <div id="home" class="item">
+        <section id="header-slider" class="owl-carousel">
+            <div class="item">
                 <div class="container">
                     <div class="header-content">
                         <h1 class="header-title">Great Sandwhiches</h1>
