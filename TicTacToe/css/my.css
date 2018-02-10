@@ -5,7 +5,10 @@
   width:100px;
 }
 .ticTacToeImage{
-  margin: 10px;
+  margin: 12px;
+}
+.box{
+  background-repeat: no-repeat;
 }
 #grid1{
   background-image: url(../images/ticTac1.png);
