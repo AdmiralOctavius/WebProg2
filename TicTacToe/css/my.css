@@ -4,8 +4,8 @@
 .col-xs-4{
   width:100px;
 }
-.selected{
-  margin: 12px;
+.ticTacToeImage{
+  margin: 10px;
 }
 #grid1{
   background-image: url(../images/ticTac1.png);
