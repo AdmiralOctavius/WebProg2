@@ -1,3 +1,38 @@
 .row{
   height:100px;
 }
+.col-xs-4{
+  width:100px;
+}
+.selected{
+  margin: 12px;
+}
+#grid1{
+  background-image: url(../images/ticTac1.png);
+}
+#grid2{
+  background-image: url(../images/ticTac2.png);
+}
+#grid3{
+  background-image: url(../images/ticTac3.png);
+}
+
+#grid4{
+  background-image: url(../images/ticTac4.png);
+}
+#grid5{
+  background-image: url(../images/ticTac5.png);
+}
+#grid6{
+  background-image: url(../images/ticTac6.png);
+}
+
+#grid7{
+  background-image: url(../images/ticTac7.png);
+}
+#grid8{
+  background-image: url(../images/ticTac8.png);
+}
+#grid9{
+  background-image: url(../images/ticTac9.png);
+}
