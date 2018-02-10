@@ -5,18 +5,20 @@ $(() => {
                 0,0,0,
                 0,0,0];
 
-    $("#grid1").click( function(){
-        if(turn1==false){
-          $("#grid1").addClass("O");
+    $(".box").click( function(){
+        if(turn1==false && !($(this).hasClass("O") || $(this).hasClass("X") )){
+          $(this).addClass("O");
+          $(this).append("<img class='selected' src='images/O.png'>");
           turn1=true;
           grid[0] = 1;
         }
-        else{
-          $("#grid1").addClass("X");
+        else if(turn1==true && !($(this).hasClass("O") || $(this).hasClass("X") )){
+          $(this).addClass("X");
+          $(this).append("<img class='selected' src='images/X.png'>");
           turn1=false;
           grid[0] = 2;
         }
-    )};
+    });
 
 
 });
