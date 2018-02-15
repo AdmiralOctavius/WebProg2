@@ -1,3 +1,6 @@
+
+//Need to add vertical checking
+
 function isWinner(){
   //Horizontal
   if(grid[0] == grid[1] && grid[1] == grid[2] && grid[0] == grid[2]){
