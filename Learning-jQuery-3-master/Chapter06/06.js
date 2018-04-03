@@ -4,3 +4,10 @@
 // page or follow along with the examples in the book.
 //
 // See README.txt for more information.
+$(()	=>	{
+		$('#letter-a	a')
+				.click((e)	=>	{
+				      e.preventDefault()
+				      $('#dictionary').load('a.html');
+    });
+});
